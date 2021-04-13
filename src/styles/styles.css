@@ -1,0 +1,117 @@
+header{
+    height: 80px;
+    background-color: blue;
+}
+
+body{
+    background: #f5f5f5;
+}
+
+
+footer{
+    height: 30px;
+    background-color: blue;
+}
+
+/* ----------  LOGIN y REGISTER  --------------------------- */
+.row_login{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 3px 7px 3px #ccc;
+
+    margin-top: 30px;
+}
+
+
+.bg_img_login{
+    background-image: url(../img/rock-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 768px){
+    .bg_img_login{
+        height: 15vh;
+    }
+
+    .form_login_cont{
+        height: 60vh;
+    }
+}
+
+.img_title_login{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background: rgba(76, 93, 107, 0.192);
+    height: 40px;    
+}
+
+
+.alert_span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+
+.link{
+    
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.google-icon{
+    height: 23px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+/* ----- --------   APP ---------------- */
+
+
+
+
+/*--- Navbar ---------------------------- */
+
+
+.nav_style{
+    background-color: rgb(33, 6, 68);
+    color: #fff;
+}
+
+.icon_app{
+    cursor: pointer;
+}
+
+.user_nav{
+    text-transform: uppercase;
+}
+
+/* --- ASIDE -------------------------------- */
+
+
+.aside-menu{
+    background-color:rgb(33, 6, 68); 
+    height: 88vh;
+    width: 220px;
+}
+
+.nav-text{
+    list-style: none; 
+    padding: 10px;
+}
+
+.link_aside{   
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.span_title{   
+    margin: 10px;
+}
+
+
+
